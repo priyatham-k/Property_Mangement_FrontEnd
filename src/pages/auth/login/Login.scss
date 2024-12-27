@@ -1,0 +1,15 @@
+.login-container{
+    display: flex;
+    align-items: center;
+    .property-icon {
+        height: 250px;
+        color: #3b5998;
+    }
+}
+@media (min-width: 992px) {
+    .d-lg-block.bg-login-image {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+}

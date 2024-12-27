@@ -1,0 +1,48 @@
+.property-booking-dialog{
+    .property-book-form{
+        .react-datepicker-wrapper{
+            width: 100%;
+        }
+    }
+    .booking-confirmation{
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        width: 100%;
+        p{
+            color: black;
+        }
+        .order-payment{
+            width: 60%;
+            .order-total{
+                color: rgb(20, 164, 77);
+                font-size: 20px;
+                font-weight: bold;
+            }
+            .payment-title{
+                color: red;
+            }
+        }
+        
+        .order-recap{
+            width: 40%;
+            background: rgb(248, 249, 250);
+            border-radius: 4px;
+            padding: 8px 16px;
+            div {
+                display: flex;
+                align-items: center;
+            }
+            p{
+                margin-bottom: 8px;
+            }
+            .label {
+                width:100px
+            }
+        }
+    }
+}
+
+.property-details{
+    height: 99px;
+}
